@@ -1,7 +1,7 @@
 ### Hi there, yuzhou here.
 
 <p align="center">
-  <img src="./assets/yuzhou-pixel-robot.png" width="180" alt="yuzhou's friendly pixel robot">
+  <img src="./assets/yuzhou-eren-pixel.png" width="180" alt="Chibi pixel-art Eren Yeager with tied-back hair">
 </p>
 
 I'm a Software Engineering undergraduate at Henan University of Science and Technology, graduating in 2028.
