@@ -1,61 +1,62 @@
-# Hi, I'm ZYZ666-RGB
+### Hi there, yuzhou here.
 
-I'm a Software Engineering undergraduate focusing on **Java backend development and AI Agent / RAG engineering**.
+<p align="center">
+  <img src="./assets/yuzhou-pixel-robot.png" width="180" alt="yuzhou's friendly pixel robot">
+</p>
 
-I build backend systems and AI applications, and contribute to open-source software.
+I'm a Software Engineering undergraduate at Henan University of Science and Technology, graduating in 2028.
 
-My current focus is agent runtimes, memory, tool calling, retrieval, and evaluation.
+I build Java backends and AI agent systems, with a focus on reliable execution, tool calling, context, memory, retrieval, and evaluation.
 
----
+Currently exploring Agent Runtime, MCP, and knowledge-driven AI applications.
 
-## Focus
+Contact me: [1991039819@qq.com](mailto:1991039819@qq.com)
 
-- Java backend engineering
-- AI agents and agent runtimes
-- RAG and hybrid retrieval
-- Agent memory and knowledge graphs
-- Tool calling and ReAct
-- RAG / agent evaluation
-- Open-source contribution
-
----
-
-## Open Source
-
-I enjoy practical engineering work: reproducing issues, identifying root causes, implementing focused fixes, adding regression tests, and keeping changes easy to review.
-
-**Merged contributions:**
-
-- [apache/seatunnel#12222](https://github.com/apache/seatunnel/pull/12222) - Added early validation for blank Lance Sink paths and namespace types while preserving defaults and optional settings.
-- [apache/seatunnel#11504](https://github.com/apache/seatunnel/pull/11504) - Added declarative Milvus Sink batch-size validation that rejects negative values while preserving immediate flushing when `batch_size = 0`.
-
-**Contributions under review:**
-
-Open PRs awaiting maintainer review or a merge decision.
-
-- [larksuite/oapi-sdk-go#226](https://github.com/larksuite/oapi-sdk-go/pull/226) - Prevent repeated Drive file pagination by treating an empty next-page token as the end of iteration.
-- [modelcontextprotocol/java-sdk#1100](https://github.com/modelcontextprotocol/java-sdk/pull/1100) - Guard MCP client list operations against endless pagination with configurable page limits and repeated-cursor detection.
-- [modelcontextprotocol/java-sdk#1099](https://github.com/modelcontextprotocol/java-sdk/pull/1099) - Return a JSON-RPC error when a server request handler completes empty, preventing requests from receiving no response.
-- [go-kratos/kratos#3856](https://github.com/go-kratos/kratos/pull/3856) - Escape HTTP path parameters to prevent query and fragment corruption while preserving resource-name slashes and valid path characters.
+<a href="https://ghfind.com/u/ZYZ666-RGB?ref=badge">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=dark&amp;lang=en">
+    <img src="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=light&amp;lang=en" alt="ZYZ666-RGB's ghfind score card" width="500">
+  </picture>
+</a>
 
 ---
 
-## Tech Stack
+<details>
+<summary><b>Open Source Contributions</b></summary>
 
-**Languages:** Java, Go, Python
+<br>
 
-**Backend:** Spring Boot, MySQL, Redis
+I contribute focused fixes, regression tests, and documentation to projects I use and learn from.
 
-**AI:** Spring AI, Spring AI Alibaba, MCP, ReAct, Tool Calling, Agent Memory
+| Project | Contribution | Pull requests | Status |
+| --- | --- | --- | --- |
+| AgentScope Java | Modular Spring Boot and AG-UI dependencies | [#3156](https://github.com/agentscope-ai/agentscope-java/pull/3156) | Merged |
+| Apache SeaTunnel | Lance and Milvus connector configuration validation | [#12222](https://github.com/apache/seatunnel/pull/12222), [#11504](https://github.com/apache/seatunnel/pull/11504) | Merged |
+| MCP Java SDK | Bounded pagination and JSON-RPC error responses | [#1100](https://github.com/modelcontextprotocol/java-sdk/pull/1100), [#1099](https://github.com/modelcontextprotocol/java-sdk/pull/1099) | Open |
+| Spring AI | Image-model token usage metrics | [#6800](https://github.com/spring-projects/spring-ai/pull/6800) | Open |
+| Lark Go SDK | Safe termination of Drive file pagination | [#226](https://github.com/larksuite/oapi-sdk-go/pull/226) | Open |
+| Kratos | Safe HTTP path-parameter escaping | [#3856](https://github.com/go-kratos/kratos/pull/3856) | Open |
+| Go MySQL Driver | Clearer errors for busy connections | [#1787](https://github.com/go-sql-driver/mysql/pull/1787) | Open |
 
-**Retrieval:** Milvus, Neo4j, Dense Retrieval, Sparse Retrieval, RRF
+[View all contributions →](https://github.com/pulls?q=is%3Apr+author%3AZYZ666-RGB+-user%3AZYZ666-RGB)
 
-**Tools:** Git, Docker, Linux, Maven, GitHub Actions, JUnit
+</details>
 
 ---
 
-## Contact
+#### Tech Stack
 
-- GitHub: [@ZYZ666-RGB](https://github.com/ZYZ666-RGB)
-- Email: [1991039819@qq.com](mailto:1991039819@qq.com)
-- Opportunities: Java Backend / AI Agent internships (6+ months; available within one week).
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" alt="Java" title="Java">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="40" height="40" alt="Spring" title="Spring">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="40" height="40" alt="Go" title="Go">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python" title="Python">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" title="MySQL">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="40" height="40" alt="Redis" title="Redis">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg" width="40" height="40" alt="Elasticsearch" title="Elasticsearch">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" title="Docker">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40" alt="Git" title="Git">&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" title="Linux">
+</p>
+
+Spring AI · Spring AI Alibaba · MCP · Milvus · Neo4j
