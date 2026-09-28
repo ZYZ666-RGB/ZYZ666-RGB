@@ -27,6 +27,7 @@ I enjoy practical engineering work: reproducing issues, identifying root causes,
 
 **Merged contributions:**
 
+- [kestra-io/plugin-ai#439](https://github.com/kestra-io/plugin-ai/pull/439) - Added configurable flow allowlists to the KestraFlow agent tool, enforcing exact namespace/flow pairs before API calls, with regression tests and documentation.
 - [agentscope-ai/agentscope-java#3156](https://github.com/agentscope-ai/agentscope-java/pull/3156) - Replaced aggregate Spring Boot dependencies with modular core and AG-UI dependencies to prevent duplicate classes and version shadowing.
 - [apache/seatunnel#12222](https://github.com/apache/seatunnel/pull/12222) - Added early validation for blank Lance Sink paths and namespace types while preserving defaults and optional settings.
 - [apache/seatunnel#11504](https://github.com/apache/seatunnel/pull/11504) - Added declarative Milvus Sink batch-size validation that rejects negative values while preserving immediate flushing when `batch_size = 0`.
