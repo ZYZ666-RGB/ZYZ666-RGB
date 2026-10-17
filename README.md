@@ -14,8 +14,8 @@ Contact me: [1991039819@qq.com](mailto:1991039819@qq.com)
 
 <a href="https://ghfind.com/u/ZYZ666-RGB?ref=badge">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=dark&amp;lang=en">
-    <img src="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=light&amp;lang=en" alt="ZYZ666-RGB's ghfind score card" width="500">
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=dark&amp;lang=en&amp;v=20261017">
+    <img src="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=light&amp;lang=en&amp;v=20261017" alt="ZYZ666-RGB's ghfind score card" width="500">
   </picture>
 </a>
 
