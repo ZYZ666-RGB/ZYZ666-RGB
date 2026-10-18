@@ -1,11 +1,11 @@
-# Keep moving forward.
+<h1 align="center">Hey, welcome to my corner.</h1>
 
 <p align="center">
   <img src="./assets/yuzhou-eren-pixel.png" width="150" alt="Chibi pixel-art Eren Yeager with tied-back hair">
 </p>
 
 <p align="center">
-  <img src="./assets/typing-intro.svg" width="680" height="55" alt="Hi, I'm yuzhou — Java Backend, AI Agents, Agent Runtime and MCP">
+  <img src="./assets/typing-intro.svg" width="680" height="55" alt="Hi, I'm yuzhou. Welcome aboard. Turning curiosity into code. Building agents, one step at a time. Keep learning. Keep moving forward.">
 </p>
 
 <p>
