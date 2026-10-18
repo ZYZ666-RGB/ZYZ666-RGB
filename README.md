@@ -1,23 +1,47 @@
-### Hi there, yuzhou here.
+# Keep moving forward.
 
 <p align="center">
-  <img src="./assets/yuzhou-eren-pixel.png" width="180" alt="Chibi pixel-art Eren Yeager with tied-back hair">
+  <img src="./assets/yuzhou-eren-pixel.png" width="150" alt="Chibi pixel-art Eren Yeager with tied-back hair">
 </p>
 
-I'm a Software Engineering undergraduate at Henan University of Science and Technology, graduating in 2028.
+<p align="center">
+  <img src="./assets/typing-intro.svg" width="680" height="55" alt="Hi, I'm yuzhou — Java Backend, AI Agents, Agent Runtime and MCP">
+</p>
 
-I build Java backends and AI agent systems, with a focus on reliable execution, tool calling, context, memory, retrieval, and evaluation.
+<p>
+  <img src="./assets/badges/java.svg" alt="Java">
+  <img src="./assets/badges/spring-boot.svg" alt="Spring Boot">
+  <img src="./assets/badges/go.svg" alt="Go">
+  <img src="./assets/badges/python.svg" alt="Python">
+  <img src="./assets/badges/mcp.svg" alt="MCP">
+</p>
 
-Currently exploring Agent Runtime, MCP, and knowledge-driven AI applications.
+<p>
+  <img src="./assets/badges/mysql.svg" alt="MySQL">
+  <img src="./assets/badges/redis.svg" alt="Redis">
+  <img src="./assets/badges/milvus.svg" alt="Milvus">
+  <img src="./assets/badges/neo4j.svg" alt="Neo4j">
+  <img src="./assets/badges/docker.svg" alt="Docker">
+  <img src="./assets/badges/git.svg" alt="Git">
+</p>
 
-Contact me: [1991039819@qq.com](mailto:1991039819@qq.com)
+[![Email](./assets/badges/contact.svg)](mailto:1991039819@qq.com)
+[![GitHub](./assets/badges/github.svg)](https://github.com/ZYZ666-RGB)
 
-<a href="https://ghfind.com/u/ZYZ666-RGB?ref=badge">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=dark&amp;lang=en&amp;v=20261017">
-    <img src="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=light&amp;lang=en&amp;v=20261017" alt="ZYZ666-RGB's ghfind score card" width="500">
-  </picture>
-</a>
+### About Me
+
+- **Background:** Software Engineering undergraduate at **Henan University of Science and Technology**, graduating in **2028**.
+- **Building:** Java backends and AI agent applications with **Spring Boot**, **Spring AI**, and **Spring AI Alibaba**.
+- **Exploring:** **Agent Runtime**, **MCP**, context and memory, retrieval, and evaluation.
+
+<p align="center">
+  <a href="https://github.com/ZYZ666-RGB">
+    <img height="180" align="center" src="https://github-stats-extended.vercel.app/api?username=ZYZ666-RGB&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=A8C686&amp;text_color=D9DFD0&amp;icon_color=A8C686&amp;border_radius=10&amp;show_icons=true" alt="yuzhou's GitHub contribution statistics">
+  </a>
+  <a href="https://github.com/ZYZ666-RGB?tab=repositories">
+    <img height="180" align="center" src="https://github-stats-extended.vercel.app/api/top-langs?username=ZYZ666-RGB&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=A8C686&amp;text_color=D9DFD0&amp;icon_color=A8C686&amp;border_radius=10&amp;layout=compact&amp;langs_count=6&amp;card_width=320" alt="Most used languages across yuzhou's public repositories">
+  </a>
+</p>
 
 ---
 
@@ -47,19 +71,11 @@ Open PRs awaiting maintainer review or a merge decision.
 
 ---
 
-#### Tech Stack
+### Profile Score
 
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" alt="Java" title="Java">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="40" height="40" alt="Spring" title="Spring">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="40" height="40" alt="Go" title="Go">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python" title="Python">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" title="MySQL">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="40" height="40" alt="Redis" title="Redis">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg" width="40" height="40" alt="Elasticsearch" title="Elasticsearch">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" title="Docker">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40" alt="Git" title="Git">&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" title="Linux">
-</p>
-
-Spring AI · Spring AI Alibaba · MCP · Milvus · Neo4j
+<a href="https://ghfind.com/u/ZYZ666-RGB?ref=badge">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=dark&amp;lang=en&amp;v=20261017">
+    <img src="https://ghfind.com/api/card/mini/ZYZ666-RGB?theme=light&amp;lang=en&amp;v=20261017" alt="ZYZ666-RGB's ghfind score card" width="500">
+  </picture>
+</a>
