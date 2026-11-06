@@ -1,0 +1,46 @@
+name: generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "dist/**"
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Platane/snk svg-only writes CSS-animated SVGs (light + dark).
+      # Pink/purple cells match the profile. Exactly five dot colors:
+      # empty, then low contribution through high.
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#E879F9&color_dots=#FDF2F8,#FBCFE8,#F472B6,#E879F9,#C026D3
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F472B6&color_dots=#0D1117,#4A044E,#A21CAF,#E879F9,#F472B6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: push snake animation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
+          if git diff --staged --quiet; then
+            echo "Snake animation unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh contribution snake"
+          git push
