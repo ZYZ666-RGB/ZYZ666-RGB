@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:F472B6,45:E879F9,100:A855F7&amp;height=200&amp;section=header&amp;text=yuzhou&amp;fontSize=70&amp;fontAlignY=35&amp;desc=Spring%20AI%20%C2%B7%20Agent%20%C2%B7%20MCP&amp;descAlignY=55&amp;animation=fadeIn&amp;fontColor=fff" width="100%" alt="yuzhou — Spring AI · Agent · MCP">
+  <img src="./assets/banner.svg" width="100%" alt="yuzhou">
 </p>
 
 <h1 align="center">Hey, welcome to my corner.</h1>
