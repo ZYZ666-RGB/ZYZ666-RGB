@@ -1,12 +1,4 @@
-<p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="yuzhou">
-</p>
-
 <h1 align="center">Hey, welcome to my corner.</h1>
-
-<p align="center">
-  <img src="./assets/typing-intro.svg" width="680" height="55" alt="Hi, I'm yuzhou. Welcome aboard. Turning curiosity into code. Building agents, one step at a time. Keep learning. Keep moving forward.">
-</p>
 
 <p align="center">
   <picture>
@@ -17,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img src="./assets/typing-intro.svg" width="680" height="55" alt="Hi, I'm yuzhou. Welcome aboard. Turning curiosity into code. Building agents, one step at a time. Keep learning. Keep moving forward.">
+</p>
+
+<p>
   <img src="./assets/badges/java.svg" alt="Java">
   <img src="./assets/badges/spring-boot.svg" alt="Spring Boot">
   <img src="./assets/badges/go.svg" alt="Go">
@@ -24,7 +20,7 @@
   <img src="./assets/badges/mcp.svg" alt="MCP">
 </p>
 
-<p align="center">
+<p>
   <img src="./assets/badges/mysql.svg" alt="MySQL">
   <img src="./assets/badges/redis.svg" alt="Redis">
   <img src="./assets/badges/milvus.svg" alt="Milvus">
@@ -33,23 +29,21 @@
   <img src="./assets/badges/git.svg" alt="Git">
 </p>
 
-<p align="center">
-  <a href="mailto:1991039819@qq.com"><img src="./assets/badges/contact.svg" alt="Email"></a>
-  <a href="https://github.com/ZYZ666-RGB"><img src="./assets/badges/github.svg" alt="GitHub"></a>
-</p>
+[![Email](./assets/badges/contact.svg)](mailto:1991039819@qq.com)
+[![GitHub](./assets/badges/github.svg)](https://github.com/ZYZ666-RGB)
 
 ### About Me
 
-- **Background:** Software Engineering undergraduate at **Henan University of Science and Technology**, class of **2028**.
-- **Building:** Java backends and AI agents with **Spring Boot**, **Spring AI**, and **Spring AI Alibaba**.
-- **Exploring:** Agent runtime, **MCP**, context and memory, retrieval, and evaluation.
+- **Background:** Software Engineering undergraduate at **Henan University of Science and Technology**, graduating in **2028**.
+- **Building:** Java backends and AI agent applications with **Spring Boot**, **Spring AI**, and **Spring AI Alibaba**.
+- **Exploring:** **Agent Runtime**, **MCP**, context and memory, retrieval, and evaluation.
 
 <p align="center">
   <a href="https://github.com/ZYZ666-RGB">
-    <img height="180" src="https://github-stats-extended.vercel.app/api?username=ZYZ666-RGB&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=E879F9&amp;text_color=E9D5FF&amp;icon_color=F472B6&amp;border_radius=16&amp;show_icons=true" alt="yuzhou's GitHub contribution statistics">
+    <img height="180" align="center" src="https://github-stats-extended.vercel.app/api?username=ZYZ666-RGB&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=A8C686&amp;text_color=D9DFD0&amp;icon_color=A8C686&amp;border_radius=10&amp;show_icons=true" alt="yuzhou's GitHub contribution statistics">
   </a>
   <a href="https://github.com/ZYZ666-RGB?tab=repositories">
-    <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs?username=ZYZ666-RGB&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=E879F9&amp;text_color=E9D5FF&amp;icon_color=F472B6&amp;border_radius=16&amp;layout=compact&amp;langs_count=6&amp;card_width=320" alt="Most used languages across yuzhou's public repositories">
+    <img height="180" align="center" src="https://github-stats-extended.vercel.app/api/top-langs?username=ZYZ666-RGB&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=A8C686&amp;text_color=D9DFD0&amp;icon_color=A8C686&amp;border_radius=10&amp;layout=compact&amp;langs_count=6&amp;card_width=320" alt="Most used languages across yuzhou's public repositories">
   </a>
 </p>
 
