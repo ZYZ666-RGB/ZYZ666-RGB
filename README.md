@@ -12,7 +12,7 @@
   <img src="./assets/typing-intro.svg" width="680" height="55" alt="Hi, I'm yuzhou. Welcome aboard. Turning curiosity into code. Building agents, one step at a time. Keep learning. Keep moving forward.">
 </p>
 
-<p>
+<p align="center">
   <img src="./assets/badges/java.svg" alt="Java">
   <img src="./assets/badges/spring-boot.svg" alt="Spring Boot">
   <img src="./assets/badges/go.svg" alt="Go">
@@ -20,7 +20,7 @@
   <img src="./assets/badges/mcp.svg" alt="MCP">
 </p>
 
-<p>
+<p align="center">
   <img src="./assets/badges/mysql.svg" alt="MySQL">
   <img src="./assets/badges/redis.svg" alt="Redis">
   <img src="./assets/badges/milvus.svg" alt="Milvus">
@@ -29,8 +29,10 @@
   <img src="./assets/badges/git.svg" alt="Git">
 </p>
 
-[![Email](./assets/badges/contact.svg)](mailto:1991039819@qq.com)
-[![GitHub](./assets/badges/github.svg)](https://github.com/ZYZ666-RGB)
+<p align="center">
+  <a href="mailto:1991039819@qq.com"><img src="./assets/badges/contact.svg" alt="Email"></a>
+  <a href="https://github.com/ZYZ666-RGB"><img src="./assets/badges/github.svg" alt="GitHub"></a>
+</p>
 
 ### About Me
 
