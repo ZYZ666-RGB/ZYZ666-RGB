@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img alt="3D calendar of yuzhou's GitHub contributions" src="./profile-3d-contrib/profile-night-green.svg">
+</p>
+
+<p align="center">
   <img src="./assets/typing-intro.svg" width="680" height="55" alt="Hi, I'm yuzhou. Welcome aboard. Turning curiosity into code. Building agents, one step at a time. Keep learning. Keep moving forward.">
 </p>
 
