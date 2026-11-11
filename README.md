@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="3D calendar of yuzhou's GitHub contributions" src="./profile-3d-contrib/profile-night-green.svg">
+  <img alt="3D calendar of yuzhou's GitHub contributions" src="./profile-3d-contrib/profile-night-green.svg" width="720">
 </p>
 
 <p align="center">
