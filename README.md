@@ -46,10 +46,10 @@
 
 <p align="center">
   <a href="https://github.com/ZYZ666-RGB">
-    <img height="180" align="center" src="https://github-stats-extended.vercel.app/api?username=ZYZ666-RGB&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=A8C686&amp;text_color=D9DFD0&amp;icon_color=A8C686&amp;border_radius=10&amp;show_icons=true" alt="yuzhou's GitHub contribution statistics">
+    <img height="180" align="center" src="./profile/stats.svg" alt="yuzhou's GitHub contribution statistics">
   </a>
   <a href="https://github.com/ZYZ666-RGB?tab=repositories">
-    <img height="180" align="center" src="https://github-stats-extended.vercel.app/api/top-langs?username=ZYZ666-RGB&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=A8C686&amp;text_color=D9DFD0&amp;icon_color=A8C686&amp;border_radius=10&amp;layout=compact&amp;langs_count=6&amp;card_width=320" alt="Most used languages across yuzhou's public repositories">
+    <img height="180" align="center" src="./profile/top-langs.svg" alt="Most used languages across yuzhou's public repositories">
   </a>
 </p>
 
