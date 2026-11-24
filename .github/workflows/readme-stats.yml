@@ -1,0 +1,92 @@
+name: Update GitHub stats cards
+
+on:
+  schedule:
+    # Hourly at minute 17, offset from the 00:00 UTC snake and 3D calendar jobs.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-readme-stats
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v5
+
+      # Renders locally with the same options as the previous public cards.
+      # core_version is pinned because the action's default "v2" installs a moving 2.x release.
+      - name: Generate GitHub stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&hide_border=true&bg_color=0D1117&title_color=A8C686&text_color=D9DFD0&icon_color=A8C686&border_radius=10&show_icons=true"
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: "2.3.1"
+          fail_on_error: "true"
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&hide_border=true&bg_color=0D1117&title_color=A8C686&text_color=D9DFD0&icon_color=A8C686&border_radius=10&layout=compact&langs_count=6&card_width=320"
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: "2.3.1"
+          fail_on_error: "true"
+
+      - name: Reject error cards
+        run: |
+          python3 - << 'PY'
+          from pathlib import Path
+          import sys
+
+          cards = {
+              "profile/stats.svg": ("Total Stars Earned:", "Total Commits"),
+              "profile/top-langs.svg": ("Most Used Languages",),
+          }
+          errors = (
+              "Something went wrong",
+              "File an issue",
+              "Could not resolve to a User",
+              "No GitHub API tokens",
+              "rate limit",
+          )
+          for path, needles in cards.items():
+              file = Path(path)
+              if not file.is_file():
+                  sys.exit(f"missing {path}")
+              text = file.read_text(encoding="utf-8")
+              if "<svg" not in text[:800]:
+                  sys.exit(f"{path} is not an SVG")
+              if len(text) < 500:
+                  sys.exit(f"{path} is too small to be a stats card")
+              lowered = text.lower()
+              for marker in errors:
+                  if marker.lower() in lowered:
+                      sys.exit(f"refusing error card {path}: {marker}")
+              for needle in needles:
+                  if needle not in text:
+                      sys.exit(f"{path} is missing expected content: {needle}")
+          print("stats cards accepted")
+          PY
+
+      - name: Commit changed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/top-langs.svg
+          if git diff --staged --quiet; then
+            echo "Stats cards unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh GitHub stats cards [skip ci]"
+          git push
